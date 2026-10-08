@@ -1,0 +1,37 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- N in Teal -->
+  <g id="letter-n">
+    <!-- Left vertical stroke of N -->
+    <rect x="80" y="120" width="70" height="280" rx="35" ry="35" fill="#17a2b8"/>
+    
+    <!-- Right vertical stroke of N -->
+    <rect x="280" y="120" width="70" height="280" rx="35" ry="35" fill="#17a2b8"/>
+    
+    <!-- Diagonal stroke of N -->
+    <g>
+      <defs>
+        <linearGradient id="diagGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" style="stop-color:#17a2b8;stop-opacity:1" />
+          <stop offset="100%" style="stop-color:#17a2b8;stop-opacity:1" />
+        </linearGradient>
+      </defs>
+      <line x1="115" y1="400" x2="315" y2="120" stroke="#17a2b8" stroke-width="70" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  
+  <!-- D in Navy Blue -->
+  <g id="letter-d">
+    <!-- Left vertical stroke of D -->
+    <rect x="360" y="120" width="70" height="280" rx="35" ry="35" fill="#1a3f5a"/>
+    
+    <!-- Top horizontal curve of D -->
+    <line x1="430" y1="120" x2="480" y2="120" stroke="#1a3f5a" stroke-width="70" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Bottom horizontal curve of D -->
+    <line x1="430" y1="400" x2="480" y2="400" stroke="#1a3f5a" stroke-width="70" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Right curved side of D (arc) -->
+    <path d="M 480 120 Q 550 120 550 260 Q 550 400 480 400" 
+          stroke="#1a3f5a" stroke-width="70" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>
